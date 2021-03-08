@@ -15,7 +15,7 @@ export default class ProductDetails extends Component {
                     {toRender ? (
                         <Product product={toRender}></Product>
                     ) : (
-                        
+                        <p>abc</p>
                     )}
                 </ProductsWrapper>
             </>
